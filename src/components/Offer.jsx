@@ -26,7 +26,7 @@ const offers = [
 
 const Offer = () => {
   return (
-    <div className="flex flex-col gap-8 py-6 bg-[#F5F7FF] px-6">
+    <div className="flex flex-col gap-8 py-6 mt-12 bg-[#F5F7FF] px-6">
       {offers.map((offer) => (
         <div className="flex flex-col items-center" key={offer.id}>
           <div className="rounded-full bg-blue-500 p-4 text-white">

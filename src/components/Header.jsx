@@ -45,15 +45,29 @@ const Header = () => {
           <div>
             <img src={BrandLogo} alt="brand" />
           </div>
-          <div className="flex gap-8 font-medium items-center">
-            <span>Laptops</span>
-            <span>Desktop PCs</span>
-            <span>Networking Devices</span>
-            <span>Printers & Scanners</span>
-            <span>PC Parts</span>
-            <span>All Other Products</span>
-            <span>Repairs</span>
-            <button className="font-semibold border-2 border-blue-600 px-4 py-2 text-blue-600 rounded-3xl">
+          <div className="flex md:gap-3 lg:gap-8 font-medium items-center ">
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              Laptops
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              Desktop PCs
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              Networking Devices
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              Printers & Scanners
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              PC Parts
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              All Other Products
+            </span>
+            <span className="text-[10px] md:text-[12px] lg:text-[14px]">
+              Repairs
+            </span>
+            <button className="font-semibold border-2 text-[10px] lg:text-[14px] border-blue-600 px-4 py-2 text-blue-600 rounded-3xl">
               Our Deals
             </button>
           </div>

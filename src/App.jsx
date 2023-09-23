@@ -7,7 +7,7 @@ import { useMediaQuery } from "./hooks/useMediaQuery";
 const App = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       {isDesktop ? <Header /> : <ResponsiveHeader />}
       <Main />
       {/* {isDesktop ? <Footer /> : null} */}

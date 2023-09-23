@@ -11,3 +11,12 @@ html {
     @apply py-[10px] px-[12px] text-[14px] rounded-full border-2 border-[#A2A6B0] text-[#A2A6B0] font-semibold;
   }
 }
+body {
+  min-height: 100vh;
+}
+
+.fading-text {
+  background: -webkit-linear-gradient(#000, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

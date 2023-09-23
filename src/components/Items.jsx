@@ -37,7 +37,7 @@ const laptops = generateLaptops();
 const Items = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
         {laptops.map((laptop) => (
           <div className="relative flex flex-col p-2 gap-[6px]" key={laptop.id}>
             <span className="flex items-center text-[12px] md:text-[15px] gap-1 text-[#78A962]">
@@ -52,7 +52,7 @@ const Items = () => {
                 {Array(5)
                   .fill(0)
                   .map((_, index) => (
-                    <span>
+                    <span key={crypto.randomUUID()}>
                       <AiFillStar
                         color={index < laptop.stars ? "#E9A426" : "#CACDD8"}
                       />

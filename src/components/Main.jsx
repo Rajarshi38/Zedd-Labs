@@ -8,7 +8,7 @@ import Offer from "./Offer";
 const Main = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
   return (
-    <main id="main" className="container mx-auto">
+    <main id="main" className="container mx-auto grow md:mb-32">
       <div className="px-3 md:px-0 flex flex-col gap-4">
         {/* Hero Image */}
         {isDesktop && <HeroImage />}
