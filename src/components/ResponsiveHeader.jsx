@@ -28,7 +28,7 @@ export default function ResponsiveHeader() {
         <img
           src={Brand}
           alt="brand"
-          className="absolute top-[-22px] left-[16px] z-[-111px]"
+          className="absolute top-[-35px] left-[16px] z-[-111px]"
         />
         <div className="flex items-center justify-between">
           <div>

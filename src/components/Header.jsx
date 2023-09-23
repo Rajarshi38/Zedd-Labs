@@ -39,7 +39,7 @@ const Header = () => {
         </div>
       </div>
       {/* main navbar */}
-      <nav className="border-b border-b-gray-200 py-4">
+      <nav className="border-b border-b-[#CACDD8] py-4">
         <div className="container mx-auto flex justify-between items-center">
           {/* logo */}
           <div>
