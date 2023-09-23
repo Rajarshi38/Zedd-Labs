@@ -134,6 +134,7 @@ const FooterPart = ({ part }) => {
 
   useEffect(() => {
     if (isDesktop) setVisible(true);
+    else setVisible(false);
   }, [isDesktop]);
 
   const handleSubPartOpen = () => {
